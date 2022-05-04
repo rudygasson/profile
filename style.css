@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "ModeSeven";
-  src: url("fonts/Modeseven-L3n5.ttf") format('truetype');
+  src: url("fonts/Modeseven-L3n5.ttf") format("truetype");
 }
 
 * {
@@ -13,15 +13,19 @@
 
 html {
   height: 100%;
-  background-image: linear-gradient(to bottom right, #fbf6ee, #EDE6DB);
+  background-image: linear-gradient(to bottom right, #fbf6ee, #ede6db);
 }
 
 body {
   font-family: "Quicksand", sans-serif;
-  color: #1D5C63;
+  color: #1d5c63;
 }
 
-h1, h2, h3, a, p {
+h1,
+h2,
+h3,
+a,
+p {
   font-weight: 300;
 }
 
@@ -34,7 +38,7 @@ h1, h2, h3, a, p {
 
 .profile-image h2 {
   text-align: right;
-  color: #1D5C63;
+  color: #1d5c63;
 }
 
 .profile-image {
@@ -68,7 +72,7 @@ h1, h2, h3, a, p {
 }
 
 a {
-  color: #417D7A;
+  color: #417d7a;
 }
 
 .btn {
@@ -76,7 +80,7 @@ a {
   border: 1px solid;
   padding: 10px;
   font-weight: 300;
-  color: #417D7A;
+  color: #417d7a;
   text-decoration: none;
 }
 
@@ -87,13 +91,13 @@ a {
 }
 
 .btn:hover {
-  background-color: #417D7A;
+  background-color: #417d7a;
   font-weight: 700;
-  color: white
+  color: white;
 }
 
 .fab {
-  opacity: .2;
+  opacity: 0.2;
   font-weight: 300;
   font-size: 2rem;
 }
@@ -115,10 +119,9 @@ a {
   padding: 0px 20px;
 }
 
-
 img {
   position: relative;
-  opacity: .8;
+  opacity: 0.8;
   border-radius: 50%;
   width: 200px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
@@ -156,4 +159,5 @@ img {
   .profile-image {
     text-align: center;
     width: 100%;
+  }
 }
